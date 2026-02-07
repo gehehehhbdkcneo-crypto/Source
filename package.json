@@ -1,1 +1,13 @@
-{\n  "name": "source-web-engine",\n  "version": "1.0.0",\n  "description": "A game engine framework for web applications",\n  "main": "index.js",\n  "scripts": {\n    "start": "node server.js",\n    "test": "jest",\n    "build": "webpack"\n  },\n  "keywords": [\n    "game",\n    "engine",\n    "web",\n    "framework"\n  ],\n  "author": "Your Name",\n  "license": "MIT",\n  "dependencies": {\n    "three": "^0.138.0",\n    "socket.io": "^4.2.0",\n    "express": "^4.17.1",\n    "pixi.js": "^6.0.0",\n    "axios": "^0.24.0",\n    "lodash": "^4.17.21",\n    "stats.js": "^17.0.0",\n    "react": "^17.0.2",\n    "react-dom": "^17.0.2"\n  },\n  "devDependencies": {\n    "webpack": "^5.64.1",\n    "webpack-cli": "^4.8.0",\n    "babel-loader": "^8.2.3",\n    "jest": "^27.4.5"\n  },\n  "engines": {\n    "node": ">=14.0.0"\n  }\n}
+{"name": "Source Web Engine",
+ "version": "1.0.0",
+ "main": "index.js",
+ "dependencies": {
+   "three": "^0.145.0",
+   "cannon-es": "^2.2.1",
+   "howler": "^2.2.3",
+   "yuka": "^1.3.0",
+   "lil-gui": "^0.14.0",
+   "stats.js": "^17.0.0",
+   "socket.io": "^4.5.0"
+ }
+}
